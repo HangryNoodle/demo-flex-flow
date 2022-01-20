@@ -24,3 +24,20 @@ h2 {
 .content {
     padding: 16px;
 }
+
+.flex-container {
+    display: flex;
+
+    /* flex direction */
+    flex-flow: row; /* default value */
+    /* flex-flow: row-reverse;
+    flex-flow: column;
+    flex-flow: column-reverse; */
+
+    flex-flow: nowrap; /* default value */
+    /* flex-flow: wrap;
+    flex-flow: wrap-reverse; */
+
+    /* flex direction and flex wrap together */
+    flex-flow: wrap row-reverse;
+}
